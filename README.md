@@ -9,8 +9,8 @@ CampusGate is a backend application built to streamline the campus recruitment p
 2. [Technology Stack](#technology-stack)
 3. [Modules](#modules)
 4. [Features](#features)
-5. [Setup Instructions](#setup-instructions)
-6. [Folder Structure](#folder-structure)
+5. [Folder Structure](#folder-structure)
+6. [Setup Instructions](#setup-instructions)
 7. [API Documentation](#api-documentation)
 8. [Contact](#contact)
 
@@ -54,7 +54,16 @@ CampusGate is a backend application built to streamline the campus recruitment p
 - API-driven architecture for flexible integration with frontend or third-party tools.
 
 ---
+## Folder Structure
 
+```bash
+CampusGate/
+├── src/main/java/     # Contains controllers, services, and DAO classes
+├── src/main/resources/
+│   └── application.properties
+└── README.md          # Project documentation
+```
+----
 ## Setup Instructions
 
 ### Prerequisites
@@ -89,16 +98,6 @@ CampusGate is a backend application built to streamline the campus recruitment p
     ```
 
 5. The application will start on http://localhost:8091.
-
-## Folder Structure
-
-```bash
-CampusGate/
-├── src/main/java/     # Contains controllers, services, and DAO classes
-├── src/main/resources/
-│   └── application.properties
-└── README.md          # Project documentation
-```
 
 ## API Documentation
 
